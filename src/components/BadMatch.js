@@ -7,7 +7,7 @@ export default class BadMatch extends Component{
       <>
 
         {/* Here is where you can customize the result of a bad match */}
-        <p className = "results">Ouch! Not a great match. Consider saving your money this year!</p>
+        <p className = "results">Yikes! {this.props.name[0]} and {this.props.name[1]} are not very compatible. Consider getting your name changed?</p>
 
       </>
     );
