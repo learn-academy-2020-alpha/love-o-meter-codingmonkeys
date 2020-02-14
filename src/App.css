@@ -2,8 +2,10 @@ body{
   margin: 2em;
   align-items: center;
   text-align: center;
+  background-image: url(https://w.wallhaven.cc/full/0w/wallhaven-0we3rp.jpg);
 }
 h1{
+  font-family: 'Galada';
   text-align: center;
   font-size: 4em;
 }
@@ -39,23 +41,28 @@ footer{
   font-size: 100%;
   border-radius: 50%;
   padding: 1em;
-  background-color: #f06cc2;
+  background-color: #DC143C;
+  border-color: #C0C0C0;
+  border-width: 3px;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 #compatibility{
-  background-color: #fcb6e4;
+  background-color: #C0C0C0;
+  border-color: #DC143C;
+  border-width: 5px;
   color: #fff;
-  border-radius: .2em;
+  border-radius: .5em;
   padding: 1em;
   font-size: 150%;
   text-align: center;
-  box-shadow: 5px 5px 3px 5px #888888;
+  box-shadow: 3px 3px 3px 0px #000000;
 }
+
 #plus{
-  color: #f06cc2;
+  color: #000000;
   font-size: 50px;
   text-shadow: #e0e0e0 1px 1px 0;
 
@@ -80,4 +87,11 @@ footer{
 .header{
   background-color: #FFF;
   padding: 1em;
+}
+
+@font-face {
+  font-family: 'Galada';
+  font-style: normal;
+  font-weight: 400;
+  src: url(<link href="https://fonts.googleapis.com/css?family=Galada&display=swap" rel="stylesheet">)
 }

@@ -7,8 +7,7 @@ export default class Valentines extends Component{
       <>
 
         {/* Here is where you can customize the result of a good match */}
-        <p className = "results">A great match!</p>
-
+        <p className = "results">Hey! {this.props.name[0]} and {this.props.name[1]} are a great match!</p>
       </>
     );
   }
